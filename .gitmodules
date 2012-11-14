@@ -1,0 +1,3 @@
+[submodule "YumDiary/Vendor/Nimbus"]
+	path = YumDiary/Vendor/Nimbus
+	url = https://github.com/jverkoey/nimbus.git
