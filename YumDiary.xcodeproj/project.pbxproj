@@ -101,6 +101,10 @@
 		DBC26286165261E9001881D2 /* friends_bkg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBC26284165261E8001881D2 /* friends_bkg@2x.png */; };
 		DBC26289165262EF001881D2 /* search_bar_bkg.png in Resources */ = {isa = PBXBuildFile; fileRef = DBC26287165262EF001881D2 /* search_bar_bkg.png */; };
 		DBC2628A165262EF001881D2 /* search_bar_bkg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBC26288165262EF001881D2 /* search_bar_bkg@2x.png */; };
+		DBE5A9FD1667B5AE00D343D1 /* contact_find_friends_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DBE5A9F91667B5AE00D343D1 /* contact_find_friends_icon.png */; };
+		DBE5A9FE1667B5AE00D343D1 /* contact_find_friends_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBE5A9FA1667B5AE00D343D1 /* contact_find_friends_icon@2x.png */; };
+		DBE5A9FF1667B5AE00D343D1 /* fb_find_friends_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DBE5A9FB1667B5AE00D343D1 /* fb_find_friends_icon.png */; };
+		DBE5AA001667B5AE00D343D1 /* fb_find_friends_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DBE5A9FC1667B5AE00D343D1 /* fb_find_friends_icon@2x.png */; };
 		DBE62DB516534CE8006ECD52 /* YDSearchFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE62DB416534CE8006ECD52 /* YDSearchFriendsViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -256,6 +260,10 @@
 		DBC26284165261E8001881D2 /* friends_bkg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "friends_bkg@2x.png"; path = "Resoucres/Images/friends_bkg@2x.png"; sourceTree = "<group>"; };
 		DBC26287165262EF001881D2 /* search_bar_bkg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = search_bar_bkg.png; path = Resoucres/Images/search_bar_bkg.png; sourceTree = "<group>"; };
 		DBC26288165262EF001881D2 /* search_bar_bkg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "search_bar_bkg@2x.png"; path = "Resoucres/Images/search_bar_bkg@2x.png"; sourceTree = "<group>"; };
+		DBE5A9F91667B5AE00D343D1 /* contact_find_friends_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = contact_find_friends_icon.png; path = Resoucres/Images/contact_find_friends_icon.png; sourceTree = "<group>"; };
+		DBE5A9FA1667B5AE00D343D1 /* contact_find_friends_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "contact_find_friends_icon@2x.png"; path = "Resoucres/Images/contact_find_friends_icon@2x.png"; sourceTree = "<group>"; };
+		DBE5A9FB1667B5AE00D343D1 /* fb_find_friends_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fb_find_friends_icon.png; path = Resoucres/Images/fb_find_friends_icon.png; sourceTree = "<group>"; };
+		DBE5A9FC1667B5AE00D343D1 /* fb_find_friends_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fb_find_friends_icon@2x.png"; path = "Resoucres/Images/fb_find_friends_icon@2x.png"; sourceTree = "<group>"; };
 		DBE62DB316534CE8006ECD52 /* YDSearchFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDSearchFriendsViewController.h; sourceTree = "<group>"; };
 		DBE62DB416534CE8006ECD52 /* YDSearchFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDSearchFriendsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -397,6 +405,10 @@
 		DBC261C0165221E1001881D2 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				DBE5A9F91667B5AE00D343D1 /* contact_find_friends_icon.png */,
+				DBE5A9FA1667B5AE00D343D1 /* contact_find_friends_icon@2x.png */,
+				DBE5A9FB1667B5AE00D343D1 /* fb_find_friends_icon.png */,
+				DBE5A9FC1667B5AE00D343D1 /* fb_find_friends_icon@2x.png */,
 				DB96658716527CB80013DA00 /* profile_pic_bkg.png */,
 				DB96658816527CB80013DA00 /* profile_pic_bkg@2x.png */,
 				DB96657E16526F720013DA00 /* searchBarIcon.png */,
@@ -661,6 +673,10 @@
 				DB96658516526F720013DA00 /* searchTextBkg@2x.png in Resources */,
 				DB96658916527CB80013DA00 /* profile_pic_bkg.png in Resources */,
 				DB96658A16527CB80013DA00 /* profile_pic_bkg@2x.png in Resources */,
+				DBE5A9FD1667B5AE00D343D1 /* contact_find_friends_icon.png in Resources */,
+				DBE5A9FE1667B5AE00D343D1 /* contact_find_friends_icon@2x.png in Resources */,
+				DBE5A9FF1667B5AE00D343D1 /* fb_find_friends_icon.png in Resources */,
+				DBE5AA001667B5AE00D343D1 /* fb_find_friends_icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
