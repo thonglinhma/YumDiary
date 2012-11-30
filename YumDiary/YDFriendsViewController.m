@@ -10,7 +10,8 @@
 #import "YDSearchFriendsViewController.h"
 #import "ECSlidingViewController.h"
 
-@interface YDFriendsViewController ()<UISearchBarDelegate>
+@interface YDFriendsViewController ()<UISearchBarDelegate, UITableViewDataSource, UITableViewDelegate>
+@property (nonatomic, readwrite, strong) IBOutlet UITableView *tableView;
 @end
 
 @implementation YDFriendsViewController
@@ -37,6 +38,25 @@
                        state:UIControlStateNormal];
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    [self.searchBar sizeToFit];
+}
+
+#pragma mark - UITableViewDataSource
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 1;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return nil;
+}
+
+#pragma mark - UITableViewDelegate
+
+
+#pragma Public methods
+
 - (void)setSearchBar:(UISearchBar *)searchBar {
     if (searchBar != _searchBar) {
         _searchBar = searchBar;
@@ -47,8 +67,5 @@
     return _searchBar;
 }
 
-- (void)viewWillAppear:(BOOL)animated {
-    [self.searchBar sizeToFit];
-}
 
 @end
